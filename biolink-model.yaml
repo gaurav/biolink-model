@@ -1454,6 +1454,20 @@ slots:
     exact_mappings:
       - RO:0002435
 
+  chemically interacts with:
+    is_a: interacts with
+    description: >-
+      Chemical action at a distance. The flow of chemical messages between two biological entities
+    domain: biological entity
+    range: biological entity
+    symmetric: true
+    in_subset:
+      - translator_minimal
+    narrow mappings:
+      - RO:0002103
+      - RO:0002120
+      - RO:0002130
+
   affects:
     is_a: related to
     description: >-
